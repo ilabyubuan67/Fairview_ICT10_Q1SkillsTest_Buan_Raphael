@@ -13,7 +13,7 @@ def calculate_total(e):
     tax = subtotal * 0.12
     total = subtotal + tax
 
-    display("Order Receipt", target="receipt")
+    display("=RECIEPT=", target="receipt")
     display(f"Subtotal: ₱{subtotal:f}", target="receipt")
     display(f"VAT (12%): ₱{tax:f}", target="receipt")
     display(f"Total: ₱{total:f}", target="receipt")
